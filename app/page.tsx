@@ -7,6 +7,7 @@ import { Upload, Sparkles, Zap, ImageIcon, Users, RefreshCw } from "lucide-react
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
+import { GoogleSignInButton } from "@/components/auth/google-signin-button"
 
 export default function HomePage() {
   const [uploadedImage, setUploadedImage] = useState<string | null>(null)
@@ -103,7 +104,7 @@ export default function HomePage() {
                 FAQ
               </a>
             </nav>
-            <Button className="bg-banana text-banana-foreground hover:bg-banana/90">Get Started</Button>
+            <GoogleSignInButton />
           </div>
         </div>
       </header>

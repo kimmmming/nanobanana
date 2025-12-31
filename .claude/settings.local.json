@@ -12,7 +12,20 @@
       "Bash(npm run build)",
       "Bash(git init:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git remote add origin https://github.com/kimmmming/nanobanana.git)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "WebFetch(domain:supabase.com)",
+      "mcp__context7__resolve-library-id",
+      "Bash(pnpm add:*)",
+      "mcp__context7__query-docs",
+      "Bash(mkdir:*)",
+      "Bash(cat:*)",
+      "Bash(ls:*)",
+      "Bash(taskkill:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)"
     ]
   }
 }
